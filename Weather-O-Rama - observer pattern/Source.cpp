@@ -23,7 +23,7 @@ void main()
 
 	wd->RemoveObserver(std::weak_ptr<IObserver>(ccd));
 
-	wd->SetMeasurements(-5.0, 80.32, 997.0);
+	wd->SetMeasurements(-5.0, 80.32, 994.0);
 
 
 	system("PAUSE");
