@@ -25,6 +25,10 @@ void main()
 
 	wd->SetMeasurements(-5.0, 80.32, 994.0);
 
+	wd->RegisterObserver(std::weak_ptr<IObserver>(ccd));
+
+	wd->SetMeasurements(15.0, 60.00, 1031.0);
+
 
 	system("PAUSE");
 }
